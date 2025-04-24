@@ -52,6 +52,16 @@ console.log(Repeated);*/
 let updated=full_name.trim().toLocaleUpperCase();
 console.log(updated);*/
 
+// tostring method
+/*let number=[1,3,4,5,6,6,3,8,9];
+let ans=number.toString();
+console.log(ans);*/
+
+
+// to array
+/*let Name="Haroon";
+let ans=Name.split("");
+console.log(ans);*/
 
 
 // ARRAY WITH push method
@@ -128,6 +138,72 @@ number.splice(2,4,6,2,4);
 //replacing elements
 number.splice(1,3,"yellow")
 console.log(number);*/
+
+
+
+// Nested arrays
+/*let numbers=[[1,2,3],[1,2,3,4,5],[5,2,5,2,2],[3,5,5,3,2,]];
+console.log(numbers[2][2]);*/
+
+
+
+
+
+
+// QUESTION NO 1
+/*let array=[7,9,0,-2];
+let n=3;
+let updated=array.slice(0,n);
+console.log(updated);*/
+
+
+
+//QUESTIONS NO 2
+/*let array=[7,9,0,-2];
+let n=3;
+let updated=array.slice(array.length-n);
+console.log(updated);*/
+
+
+
+//QUESTION NO 3
+
+/*let Name =prompt("if you want to enter something");
+if(Name.length===0)
+{
+    console.log("the string is empty");
+}*/
+
+
+
+//QUESTION NO 4
+/*let full_name="  Haroon ";
+let updated=full_name.trim();
+console.log(updated);*/
+
+
+//QUESTION NO 5
+/*let number=[1,2,3,5,3,1,4,5];
+let targetednum=4;
+for(i=0;i<=number.length;i++)
+{
+    if(number[i]==targetednum)
+    {
+        console.log("found");
+    }
+    else{
+        console.log("not found")
+    }
+}*/
+
+//Question no 5 again in other method
+/*let number=[1,2,3,5,3,1,4,5];
+let targetednum=10;
+let updated=number.includes(targetednum);
+console.log(updated);*/
+
+
+
 
 
 
